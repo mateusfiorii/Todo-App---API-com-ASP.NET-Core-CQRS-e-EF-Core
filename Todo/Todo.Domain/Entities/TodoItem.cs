@@ -24,7 +24,7 @@ namespace Todo.Domain.Entities
 
         public void MaskAsUndone()
         {
-            Done = false;
+            Done = false; 
         }
 
         public void UpdateTitle(string title)
